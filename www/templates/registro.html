@@ -1,0 +1,34 @@
+<ion-view title="Registro de producto">
+    <ion-content>
+        <div class="list">
+
+            <label class="item item-input">
+                <input type="text" placeholder="Nombre"
+                       ng-model="producto.nombre">
+            </label>
+            <label class="item item-input">
+                <input type="number" placeholder="Precio"
+                       ng-model="producto.precio"
+                        >
+            </label>
+            <label class="item">
+                <button class="button button-block button-positive"
+                        ng-click="guardar()"
+                        >
+                   Nuevo producto
+                </button>
+
+            </label>
+            <label class="item">
+                <button class="button button-block button-positive"
+                        ng-click="buscar()"
+                        >
+                    Buscar producto
+                </button>
+
+            </label>
+        </div>
+
+    </ion-content>
+
+</ion-view>

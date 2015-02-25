@@ -1,0 +1,11 @@
+<ion-view view-title="Productos encontrados">
+    <ion-content>
+        <ion-list>
+            <ion-item class="item-avatar" ng-repeat="item in productos"
+                      type="item-text-wrap" >
+                <h2>{{item.nombre}}</h2>
+                <h3>{{item.precio}} €</h3>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
